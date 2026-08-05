@@ -111,3 +111,7 @@ If you want an easier experience:
 - Play with mods.
 - Use the [Don't Starve Wiki](https://dontstarve.wiki.gg). Especially for Crock Pot recipes.
 - Ask for advice.
+
+## Was AI used to develop this?
+
+No.
