@@ -1430,7 +1430,12 @@ def set_rules(dst_world: World, itempool:DSTItemPool) -> None:
     )
     scrappy_werepig = add_boss_event("Scrappy Werepig", REGION.RUINS, lambda state: state.has_all({nightmare_werepig.event, arena_building.event}, player))
     frostjaw = add_boss_event("Frostjaw", REGION.OCEAN, lambda state: state.has_all({advanced_boating.event, advanced_boss_combat.event, "Sea Fishing Rod"}, player))
-
+    mutateddeerclops = add_boss_event("Crystal Deerclops", REGION.FOREST, lambda state: state.has_all({advanced_boss_combat.event}, player))
+    mutatedbearger = add_boss_event("Armoured Bearger", REGION.FOREST, lambda state: state.has_all({advanced_boss_combat.event}, player))
+    mutatedwarg = add_boss_event("Possessed Varg", REGION.FOREST, lambda state: state.has_all({advanced_boss_combat.event}, player))
+    celestial_revenant = add_boss_event("Celestial Revenant", REGION.OCEAN, lambda state: state.has_all({advanced_boss_combat.event, advanced_boating.event}, player))
+    wagboss_robot = add_boss_event("Enlightened W.A.R.B.O.T", REGION.OCEAN, lambda state: state.has_all({advanced_boss_combat.event, advanced_boating.event, epic_combat.event}, player))
+    celestial_scion = add_boss_event("Celestial Scion", REGION.OCEAN, lambda state: state.has_all({advanced_boss_combat.event, advanced_boating.event, epic_combat.event}, player))
 
     # Events
     hermit_home_upgrade_1 = add_hermit_event("Hermit Home Upgrade (1)", combine_rules(hermit_island.rule, bug_catching.rule, night.rule if night.is_rule else cave_exploration.rule),
@@ -1520,6 +1525,12 @@ def set_rules(dst_world: World, itempool:DSTItemPool) -> None:
             "Nightmare Werepig":                nightmare_werepig.rule,
             "Scrappy Werepig":                  scrappy_werepig.rule,
             "Frostjaw":                         frostjaw.rule,
+            "Crystal Deerclops":                mutateddeerclops.rule,
+            "Armoured Bearger":                 mutatedbearger.rule,
+            "Possessed Varg":                   mutatedwarg.rule,
+            "Celestial Revenant":               celestial_revenant.rule,
+            "Enlightened W.A.R.B.O.T":          wagboss_robot.rule,
+            "Celestial Scion":                  celestial_scion.rule,
 
             # Creatures
             "Batilisk":                         batilisk.rule,
