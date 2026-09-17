@@ -65,6 +65,12 @@ class RequiredBosses(OptionSet):
     Scrappy Werepig - Cave (Full)
     Ancient Fuelweaver - Cave (Full), Night
     Celestial Champion - Ocean (Full)
+    Crystal Deerclops - Winter
+    Armoured Bearger - Autumn
+    Possessed Varg
+    Celestial Revenant - Ocean (Full)
+    Enlightened W.A.R.B.O.T - Ocean (Full)
+    Celestial Scion - Ocean (Full)
     
     Example: ['Deerclops', 'Moose/Goose', 'Bearger']
     """
@@ -91,6 +97,12 @@ class RequiredBosses(OptionSet):
         "Scrappy Werepig",
         "Ancient Fuelweaver",
         "Celestial Champion",
+        "Crystal Deerclops",
+        "Armoured Bearger",
+        "Possessed Varg",
+        "Celestial Revenent",
+        "Enlightened W.A.R.B.O.T",
+        "Celestial Scion",
     }
 
 class CraftingMode(Choice):

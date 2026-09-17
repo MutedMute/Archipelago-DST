@@ -27,7 +27,7 @@ class DSTWeb(WebWorld):
         "English",
         "setup_en.md",
         "setup/en",
-        ["Dragon Wolf Leo"]
+        ["MutedMute"]
     )]
     option_groups = dontstarvetogether_option_groups
     options_presets = dontstarvetogether_option_presets
