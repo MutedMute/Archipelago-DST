@@ -608,7 +608,7 @@ DSTAP_LOCATIONS = [
     [277,   "Crystal Deerclops",        "mutateddeerclops",         [ "boss", "seasonal", "winter", "seasons_passed_4" ] ],
     [278,   "Armoured Bearger",          "mutatedbearger",           [ "boss", "seasonal", "autumn", "seasons_passed_5" ] ],
     [279,   "Possessed Varg",           "mutatedwarg",              [ "boss", "rng", "seasons_passed_4" ] ],
-    [280,   "Celestial Revenent",       "alterguardian_phase1_lunarrift",          [ "boss", "raidboss", "ocean" ] ],
+    [280,   "Celestial Revenant",       "alterguardian_phase1_lunarrift",          [ "boss", "raidboss", "ocean" ] ],
     [281,   "Enlightened W.A.R.B.O.T",  "wagboss_robot",            [ "boss", "raidboss", "ocean" ] ],
     [282,   "Celestial Scion",          "alterguardian_phase4_lunarrift",          [ "boss", "raidboss", "ocean" ] ],
 

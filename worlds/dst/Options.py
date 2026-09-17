@@ -100,7 +100,7 @@ class RequiredBosses(OptionSet):
         "Crystal Deerclops",
         "Armoured Bearger",
         "Possessed Varg",
-        "Celestial Revenent",
+        "Celestial Revenant",
         "Enlightened W.A.R.B.O.T",
         "Celestial Scion",
     }
